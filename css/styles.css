@@ -1,0 +1,421 @@
+/****************************  RESETS  ****************************/
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body, h1, h2, h3. h4, ul, li {
+    margin:0;
+    padding:0;
+}
+h1 img {
+    border:0;
+}
+a {
+    text-decoration:none;
+}
+
+.nf {
+    clear:both;
+}
+
+/****************************  VIDEO LIGHTBOX  ******************/
+#videogallery { zoom:1; }
+#videogallery span{ display:block; }
+#videogallery a{
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    position:relative;
+    vertical-align:top;
+    /*margin:5px;*/
+    text-align:center;
+    opacity:0.9;
+}
+#videogallery a img{
+    display:block;
+    border:none;
+    margin:0;
+}
+#videogallery a:hover{
+        text-decoration:underline;
+        opacity:1;
+}
+#videogallery a#videolb{display:none}
+
+
+
+/****************************  ESTILOS GENERALES  ******************/
+
+
+body {
+    background: #F6F5F1;
+}
+
+#wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+header {
+    width: 1000px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 30px 0 20px;
+}
+    header #slogan  h1{
+        text-align: center;
+/*		font-family: 'Raleway', sans-serif;*/
+        font-family: Helvetica, Arial;
+        font-size: 16px;
+        font-weight: normal;
+        color:#ADADAD;
+        padding: 20px 0 0;
+        letter-spacing:5px;
+    }
+
+
+
+     nav {
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display:inline-block;
+    }
+        nav ul li {
+            float: left;
+            padding: 0 20px 0 20px;
+            background: #FFFFFF;
+            font-family: Helvetica, Arial;
+            font-size: 14px;
+            font-weight: normal;
+            padding: 0 14px 0 14px;
+            letter-spacing:5px;
+        }
+        nav ul li a {
+            color:#8D8D8D;
+            display: inline-block;
+            border-bottom: 3px solid #FFFFFF;
+			border-top: 3px solid #FFFFFF;
+        }
+        nav ul li a:hover {
+            color:#8D8D8D;
+            display: inline-block;
+            border-bottom: 3px solid #85B538;
+        }
+#inicio {
+        width:1000px;
+        height: 460px;
+        margin: 0 auto;
+}
+
+#wrapper .separa {
+	height: 51px;
+	display: block;
+	background-image: url(../img/separa.png);
+	background-repeat: repeat-x;
+	margin: 0 auto;
+    width: 1000px;
+    }
+
+#wrapper .separa_nav {
+	height: 31px;
+	display: block;
+	width:1000px;
+	background-image: url(../img/separa_nav.png);
+	background-repeat: repeat-x;
+	margin-top: 20px;
+    }
+#wrapper .separa_nav_2 {
+	height: 31px;
+	display: block;
+	width:1000px;
+	background-image: url(../img/separa_nav.png);
+	background-repeat: repeat-x;
+/*	margin-bottom: -10px;*/
+    }
+
+    #wrapper .separa a {
+        float:left;
+        display: block;
+    }
+    header .separa {
+        background: url(../img/separa.png) repeat-x;
+        height: 51px;
+    }
+
+a.btn {
+    width: 180px;
+    height: 65px;
+    background-position:0 0;
+    background-image: url(../img/button-go.png);
+    border-radius:  10px;
+}
+
+a.btn:hover {
+    background-position: 0 -65px;
+}
+
+#inicio {
+        display: block;
+        width: 1000px;
+        height:  446px;
+        background-image: url(../img/Juanry-Paella-video.jpg);
+}
+
+
+#inicio iframe.spot {
+    width: 445px;
+    height: 250px;
+    display: block;
+    float:left;
+    margin: 50px 20px;
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 10px;
+}
+
+#inicio a.btn {
+    position: relative;
+    display: block;
+    top: 78%;
+    left: 16%;
+}
+
+
+
+/*#inicio iframe.spot {
+    width: 445px;
+    height: 250px;
+    position: relative;
+    display: block;
+    margin: 100px 30px;
+    top:-490px;
+    left: 0%;
+}
+
+#inicio a.btn {
+    position: relative;
+    display: block;
+    top: -550px;
+    left: 15%;
+}*/
+
+#cocinero {
+        width:1000px;
+        height:200px;
+        margin: 0 auto;
+        display: inline-block;
+}
+#cocinero #descripcion{
+	text-align: left;
+   	font-family: Helvetica, Arial;
+	font-size: 25px;
+	font-weight: lighter;
+	letter-spacing:0px;
+	color:#666666;
+	width: 770px;
+	display: inline-block;
+	float: left;
+	line-height: 40px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+#cocinero #foto {
+        display: inline-block;
+        float: right;
+        padding-right: 0px;
+}
+
+
+#contenidos {
+        width:1000px;
+/*        height:800px;*/
+        margin: 0 auto;
+        display: inline-block;
+}
+#contenidos #texto{
+	text-align: left;
+   	font-family: Helvetica, Arial;
+	font-size: 25px;
+	font-weight: lighter;
+	letter-spacing:0px;
+	color:#666666;
+	width: 600px;
+	display: inline-block;
+	float: left;
+	line-height: 30px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+/*        width: 540px;
+        display: inline-block;
+        float: left;
+        text-align: left;
+        font-family: Helvetica, Arial;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing:2px;
+        color:#505050;
+        padding: 15px 15px 15px 15px;*/
+}
+#contenidos #texto h2 {
+	text-align: left;
+    letter-spacing: 0px;
+	/*  font-size: 50px;
+    text-align: center;
+    letter-spacing: 6px;
+    padding-bottom: 50px;*/
+}
+
+#contenidos #texto #texto_negrita_1 {
+    font-size: 75px;
+	padding-bottom: 20px;
+}
+#contenidos #texto #texto_negrita_2 {
+    font-size: 85px;
+	padding-bottom: 45px;
+}
+#contenidos #texto #texto_negrita_3 {
+    font-size: 90px;
+	padding-bottom: 75px;
+}
+#contenidos #texto #texto_negrita_4 {
+    font-size: 140px;
+	padding-bottom: 80px;
+}
+#contenidos #texto #texto_negrita_5 {
+    font-size: 100px;
+	padding-bottom: 80px;
+}
+
+#contenidos #texto p {
+        padding: 15px 15px 40px 15px;
+}
+#contenidos  #texto a.btn {
+        display: block;
+        position:relative;
+        left:30%;
+}
+#contenidos #fotos {
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        float: right;
+    }
+    #contenidos #fotos table {
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+	display: block;
+    }
+		    #contenidos #fotos table td {
+			padding-bottom: 39px;
+			}
+
+
+#videos  {
+	display: block;
+	width: 1000px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 50px;
+}
+#texto_videos h2 {
+    color: #666666;
+    display: block;
+    font-family: Helvetica,Arial;
+    font-size: 100px;
+/*    letter-spacing: 207;*/
+/*    line-height: 30px;*/
+/*    padding: 20px 0 10px;*/
+    text-align: center;
+    width: 1000px;
+}
+
+    #videos table tr td{
+	width:400px;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+    }
+     #videos table tr td.border{
+/*            border: 2px solid #ADADAD;*/
+            border-radius: 4px;
+    }
+        #videos table tr td a.btn{
+            display:inline-block;
+        }
+
+
+footer{
+        font-family: Helvetica, Arial;
+        font-size: 18px;
+        font-weight: lighter;
+        color:#666;
+        padding: 15px 15px 20px 15px;
+        width: 1000px;
+        display: inline-block;
+}
+    footer h3 {
+        font-size: 22px;
+        padding-bottom:20px;
+    }
+        footer #conecta {
+            width:500px;
+            float:left;
+            text-align: left;
+			font-size: 14px;
+			line-height: 24px;
+        }
+            footer #conecta ul{
+                list-style-type: none;
+                padding: 0;
+                display:inline-block;
+            }
+            footer #conecta ul li a{
+                color:#85b538;
+            }
+            footer #conecta ul li a:hover{
+                color:#85b538;
+                text-decoration: underline;
+            }
+        footer #copyright {
+	width:500px;
+	font-size: 14px;
+	float:right;
+	text-align: right;
+	line-height: 24px;
+        }
+		#cookies {
+		font-family: Helvetica, Arial;
+        font-size: 12px;
+        font-weight: lighter;
+        color:#666;
+        padding: 15px;
+        width: 1000px;
+        display: inline-block;
+		}
+#wrapper #fin {
+        height: 100px;
+        background: #F6F5F1;
+        color: #F6F5F1;
+        display: ;
+    }
+
